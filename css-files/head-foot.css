@@ -234,6 +234,7 @@ footer {
 @media (max-width: 800px) {
   .hamburger-icon {
     display: inline-block;
+    margin-left: 79%;
   }
   /* .navbar {
     display: none;
@@ -242,32 +243,36 @@ footer {
     visibility: hidden;
     color: #c5b68b;
     margin-bottom: 2px;
-    font-size: 18px;
+    font-size: 22px;
   }
   .photo-button {
     visibility: hidden;
     color: #c5b68b;
     margin-bottom: 2px;
-    margin-top: 2px;
-    font-size: 18px;
+    margin-top: 4px;
+    font-size: 22px;
   }
   .project-button {
     visibility: hidden;
     color: #c5b68b;
     margin-bottom: 2px;
-    margin-top: 2px;
-    font-size: 18px;
+    margin-top: 4px;
+    font-size: 22px;
   }
   .about-button {
     visibility: hidden;
     color: #c5b68b;
     margin-bottom: 2px;
-    margin-top: 2px;
-    font-size: 18px;
+    margin-top: 4px;
+    font-size: 22px;
+  }
+  .exit-icon {
+    margin-bottom: 8px;
+    margin-left: 79%;
   }
   .button-header {
     margin-top: 20%;
-    margin-left: 35%;
+    margin-left: 29%;
     display: flex;
     flex-direction: column;
     justify-content: center;

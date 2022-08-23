@@ -248,14 +248,14 @@ footer {
   .photo-button {
     visibility: hidden;
     color: #c5b68b;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     margin-top: 4px;
     font-size: 22px;
   }
   .project-button {
     visibility: hidden;
     color: #c5b68b;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
     margin-top: 4px;
     font-size: 22px;
   }
@@ -263,6 +263,7 @@ footer {
     visibility: hidden;
     color: #c5b68b;
     margin-top: 4px;
+    margin-bottom: 2px;
     font-size: 22px;
   }
   .exit-icon {
@@ -280,7 +281,7 @@ footer {
   }
   .headTop {
     width: 100%;
-    height: 200px;
+    height: 210px;
   }
   .bottom-header {
     height: 100%;

@@ -23,33 +23,40 @@ homeBtn.addEventListener('click', function () {
   window.open('index.html', '_self', false);
 });
 
-document.querySelectorAll('.image-container img').forEach(image => {
-  image.onclick = () => {
-    document.querySelector('.popup-image').style.display = 'block';
-    document.querySelector('.popup-image img').src = image.getAttribute('src');
-  };
-});
+// let p = 0;
+// function disp(n) {
+//   if (n == 1 || p == 1) {
+//     document.querySelector('.logo-img').style.display = 'none';
+//     p = 0;
+//   } else {
+//     document.querySelector('.logo-img').style.display = 'none';
+//     p = 1;
+//   }
+// }
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
 
-let clicked = false;
-let n = 0;
-const exitBtn = document.querySelector('.exit-icon');
-const navBtn = document.querySelector('.hamburger-icon');
-navBtn.addEventListener('click', function () {
-  document.querySelector('.home-button').style.visibility = 'visible';
-  document.querySelector('.photo-button').style.visibility = 'visible';
-  document.querySelector('.project-button').style.visibility = 'visible';
-  document.querySelector('.about-button').style.visibility = 'visible';
-  document.querySelector('.hamburger-icon').style.visibility = 'hidden';
-  document.querySelector('.exit-icon').style.visibility = 'visible';
-});
-exitBtn.addEventListener('click', function () {
-  document.querySelector('.home-button').style.visibility = 'hidden';
-  document.querySelector('.photo-button').style.visibility = 'hidden';
-  document.querySelector('.project-button').style.visibility = 'hidden';
-  document.querySelector('.about-button').style.visibility = 'hidden';
-  document.querySelector('.hamburger-icon').style.visibility = 'visible';
-  document.querySelector('.exit-icon').style.visibility = 'hidden';
-});
+// let clicked = false;
+// let n = 0;
+// const exitBtn = document.querySelector('.exit-icon');
+// const navBtn = document.querySelector('.hamburger-icon');
+// navBtn.addEventListener('click', function () {
+//   document.querySelector('.home-button').style.visibility = 'visible';
+//   document.querySelector('.photo-button').style.visibility = 'visible';
+//   document.querySelector('.project-button').style.visibility = 'visible';
+//   document.querySelector('.about-button').style.visibility = 'visible';
+//   document.querySelector('.hamburger-icon').style.visibility = 'hidden';
+//   document.querySelector('.exit-icon').style.visibility = 'visible';
+// });
+// exitBtn.addEventListener('click', function () {
+//   document.querySelector('.home-button').style.visibility = 'hidden';
+//   document.querySelector('.photo-button').style.visibility = 'hidden';
+//   document.querySelector('.project-button').style.visibility = 'hidden';
+//   document.querySelector('.about-button').style.visibility = 'hidden';
+//   document.querySelector('.hamburger-icon').style.visibility = 'visible';
+//   document.querySelector('.exit-icon').style.visibility = 'hidden';
+// });
 // navBtn.addEventListener('click', function () {
 //   if (n == 1) {
 //     n = 0;
